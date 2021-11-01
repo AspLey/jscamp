@@ -23,5 +23,10 @@ class CorparateCustomer extends Customer{
     }
 }
 
-
+let customer1 = new IndividualCustomer();
 console.log(IndividualCustomer.Firstname)
+
+
+let customer2 = new CorparateCustomer();
+console.log(CorparateCustomer.companyName)
+
