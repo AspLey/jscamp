@@ -16,7 +16,7 @@ let sayHello=()=>{
 sayHello()
 
 let sayHello2=function () {
-   console.log("hello world 2")    
+console.log("hello world 2")    
 }
 sayHello2()
 
@@ -54,7 +54,7 @@ AddToCart4(products)
 
 
 function add(bisey,...numbers) {  //rest
-   let total=0
+let total=0
     for (let i = 0; i < numbers.length; i++) {
         console.log(numbers[i])
         total=total+numbers[i]
@@ -75,9 +75,9 @@ let [icAnadolu,marmara,karadeniz,[icAnadolusehirleri]]=[
     {name:"karadeniz",population:"10M"},
     [
 
-         ["ankara","konya"],
-         ["yozgat","sinop"],
-         ["bilecik","rize"],
+        ["ankara","konya"],
+        ["yozgat","sinop"],
+        ["bilecik","rize"],
 
     ]
 ]
